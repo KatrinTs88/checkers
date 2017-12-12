@@ -1,0 +1,82 @@
+
+html, body{
+	min-height: 100%
+}
+.board{
+	border: 3px solid black;
+	width: 800px;
+	height: 800px;
+	background: url('../img/bg.jpg');
+	background-repeat: repeat;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 20px 20px 40px grey;
+
+}
+
+.chess{
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	background: red;
+	opacity: .9;
+	transition: .25s;
+}
+
+.chess:hover,
+.chess:active,
+.chess:focus{
+	cursor: pointer;
+	opacity: .6;
+
+
+}
+.white{
+	background: #eebd96;
+}
+.row1{
+	top: 10px;
+}
+.row2{
+	top: 110px;
+}
+.row3{
+	top: 210px;
+}
+.row6{
+	top: 510px;
+
+}
+.row7{
+	top: 610px;
+
+}
+.row8{
+	top: 710px;
+
+}
+.column1{
+	left: 10px;
+}
+.column2{
+	left: 110px;
+}
+.column3{
+	left: 210px;
+}
+.column4{
+	left: 310px;
+}
+.column5{
+	left: 410px;
+}
+.column6{
+	left: 510px;
+}
+.column7{
+	left: 610px;
+}
+.column8{
+	left: 710px;
+}
